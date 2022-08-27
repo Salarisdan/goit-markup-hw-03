@@ -190,7 +190,7 @@ margin: 32px 0px 32px 50px;
 /*Section*/
 
 .portfolio_section{
-  width: 1200px;
+  width: 1206px;
   padding-right: 15px;
   padding-left: 15px;
   margin-top: 94px;
@@ -309,10 +309,10 @@ border-radius: 4px;
   gap: 30px;}
 
 .portfolio_item{
-  flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+  flex-basis: calc((100% - 30px * 2 ) / 3);
   padding-bottom: 20px;
-  border-bottom: 1px solid var(--border-cl);
-  background-color: var(--additional-bg-cl);
+  background: var(--white);
+  border: 1px solid var(--hard-white);
   
 }
 
@@ -846,7 +846,7 @@ margin: 50px 30px 0px 30px;
       color: var(--black);
   }
   .div_index_team{
-
+      
   }
 
   .index_my_team{
