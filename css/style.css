@@ -70,9 +70,11 @@ button{
 
 
 .logo_link{
+  display: inline-block;
+  padding-top: 24px;
+padding-bottom: 24px;
 
-
-  margin: 25px 93px 25px 0px;
+  margin: 0px 93px 0px 0px;
  
   font-family: 'Raleway',sans-serif;
   font-weight: 700;
@@ -97,9 +99,11 @@ color: var(--black);
  }
  /*studi*/
  .about_studi{
+  display: inline-block;
+padding-top: 32px;
+padding-bottom: 32px;
 
 
-margin: 32px 0px 32px 93px;
 
 
  }
@@ -115,8 +119,11 @@ margin: 32px 0px 32px 93px;
  }
  /*portfolio*/
  .about_portfolio{
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
  
- margin: 32px 0px 32px 50px;
+ margin: 0px 0px 0px 50px;
 
 
  }
@@ -131,8 +138,11 @@ margin: 32px 0px 32px 93px;
  }
  /*contacts*/
  .about_contact{
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
  
-margin: 32px 0px 32px 50px;
+margin: 0px 0px 0px 50px;
  
 
  }
@@ -147,14 +157,16 @@ margin: 32px 0px 32px 50px;
  }
  /*mail*/
  .about_mail{
-  display: flex;
+  display: inline-block;
   color: var(--gray);
  }
 
 
 .index_header_mail{
+  padding-top: 32px;
+  padding-bottom: 32px;
   
-  margin: 32px 0px 32px 344px;
+  margin: 0px 0px 0px 344px;
  
    font-weight: 500;
  font-size: 14px;
@@ -167,15 +179,16 @@ margin: 32px 0px 32px 50px;
 
  /*tell*/
  .about_tell{
-  display: flex;
+  display: inline-block;
   color: var(--gray);
 
  }
 
  .index_header_tell{
-  
+  padding-top: 32px;
+padding-bottom: 32px;
  
-  margin: 32px 0px 32px 50px;
+  margin: 0px 0px 0px 50px;
  
    font-weight: 500;
    font-size:14px;;
@@ -399,126 +412,13 @@ display: flex;
  }
 
  .index_ull{
-
+margin-left: auto;
 display: flex;
 
 
  }
 
-.logo_link{
 
-
-  margin: 25px 93px 25px 0px;
- 
-  font-family: 'Raleway',sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-font-size:26px;
-line-height: 1.19;
-
-color: var(--black);
- }
- 
- .logo-header{
-  
-
-
-   font-family: 'Raleway',sans-serif;
-   font-weight: 700;
- font-size: 26px;
- line-height:1.19;
- 
- color: var(--blue);
- letter-spacing: 0.03em;
- }
- /*studi*/
- .about_studi{
-
-
-margin: 32px 0px 32px 93px;
-
-
- }
-
- .about_studi_index{
-  font-weight: 500;
-  font-size: 14px;
-  line-height:1.14;
-  
-  
-  color: var(--black);
-  letter-spacing: 0.02em;
- }
- /*portfolio*/
- .about_portfolio{
- 
- margin: 32px 0px 32px 50px;
-
-
- }
- 
- .about_portfolio_index{
-  font-weight: 500;
-  font-size: 14px;
-  line-height:1.14;
-  
-  color: var(--black);
-  letter-spacing: 0.02em;
- }
- /*contacts*/
- .about_contact{
- 
-margin: 32px 0px 32px 50px;
- 
-
- }
-
- .about_contact_index{
-  font-weight: 500;
-  font-size: 14px;
-  line-height:1.14;
-  
-  color: var(--black);
-  letter-spacing: 0.02em;
- }
- /*mail*/
- .about_mail{
-  display: flex;
- }
-
-
-.index_header_mail{
-  
-  margin: 32px 0px 32px 344px;
- 
-   font-weight: 500;
- font-size: 14px;
- line-height:1.14;
- 
- 
- color: var(--gray);
- letter-spacing: 0.02em;
-}
-
- /*tell*/
- .about_tell{
-  display: flex;
-
- }
-
- .index_header_tell{
-  
- 
-  margin: 32px 0px 32px 50px;
- 
-   font-weight: 500;
-   font-size:14px;;
-   line-height:1.14;
-  
-   
-   color: var(--gray);
-   letter-spacing: 0.02em;
- }
  
  
 
@@ -528,8 +428,8 @@ margin: 32px 0px 32px 50px;
 
  .bg{
   
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   
  
 
@@ -538,8 +438,8 @@ margin: 32px 0px 32px 50px;
  
  .index_bisnes{
   width: 696px;
-  margin-top: 90px;
-  margin-bottom: 90px;
+  
+  
 margin-left: auto;
 margin-right: auto;
 
@@ -558,7 +458,7 @@ margin-top: 30px;
 
 margin-left: auto;
 margin-right: auto;
-display: block;
+
 padding: 10px 32px 10px 32px;
  font-family: inherit;
    font-weight: 700;
