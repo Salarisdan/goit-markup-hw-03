@@ -105,9 +105,8 @@ color: var(--black);
  }
  /*studi*/
  .about_studi{
-  display: inline-block;
-padding-top: 32px;
-padding-bottom: 32px;
+  
+
 
 
 
@@ -115,6 +114,10 @@ padding-bottom: 32px;
  }
 
  .about_studi_index{
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height:1.14;
@@ -125,9 +128,7 @@ padding-bottom: 32px;
  }
  /*portfolio*/
  .about_portfolio{
-  display: inline-block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
  
  margin: 0px 0px 0px 50px;
 
@@ -135,6 +136,9 @@ padding-bottom: 32px;
  }
  
  .about_portfolio_index{
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height:1.14;
@@ -144,9 +148,7 @@ padding-bottom: 32px;
  }
  /*contacts*/
  .about_contact{
-  display: inline-block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
  
 margin: 0px 0px 0px 50px;
  
@@ -154,6 +156,9 @@ margin: 0px 0px 0px 50px;
  }
 
  .about_contact_index{
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height:1.14;
@@ -164,13 +169,14 @@ margin: 0px 0px 0px 50px;
  /*mail*/
  .about_mail{
   display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--gray);
  }
 
 
 .index_header_mail{
-  padding-top: 32px;
-  padding-bottom: 32px;
+ 
   
   margin: 0px 0px 0px 344px;
  
@@ -186,13 +192,14 @@ margin: 0px 0px 0px 50px;
  /*tell*/
  .about_tell{
   display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--gray);
 
  }
 
  .index_header_tell{
-  padding-top: 32px;
-padding-bottom: 32px;
+
  
   margin: 0px 0px 0px 50px;
  
@@ -349,9 +356,13 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
   
 }
 
+.margin_item{
+  margin-bottom: 4px;
+}
+
 
 .padding_item{
-  margin-bottom: 4px;
+  
   border-left:1px solid var(--hard-white) ;
   border-bottom:1px solid var(--hard-white) ;
   border-right:1px solid var(--hard-white) ;
@@ -472,7 +483,7 @@ display: flex;
  .index_bisnes{
   width: 696px;
   
-  
+ 
 margin-left: auto;
 margin-right: auto;
 
@@ -512,7 +523,10 @@ padding: 10px 32px 10px 32px;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
    border-radius: 4px;
  }
- 
+/*-----------------------------*/
+
+
+/*НАШІ ОСОБЛИВОСТІ*/ 
  .index_about_hav{
   
  padding-top: 94px;
@@ -739,7 +753,7 @@ margin-bottom: 50px;
           letter-spacing: 0.03em;
            
       font-size: 36px;
-   line-height:1.6;
+   line-height:42.19px;
    
       color: var(--black);
    }
@@ -794,11 +808,12 @@ margin-bottom: 50px;
 
 /*IGOR*/
  .index_backgound_white_igor{
-    margin-top: 50px;
+    
   background: var(--white);
 }
 
 .index_name_igor{
+  padding: 10px;
 
   margin-bottom: 10px;
   letter-spacing: 0.03em;
@@ -825,11 +840,12 @@ color: var(--gray);
 
 /*OLGA*/
 .index_backgound_white_olga{
-  margin-top: 50px;
+  
   background: var(--white);
 }
 
 .index_name_olga{
+  padding: 10px;
   margin-bottom: 10px;
   letter-spacing: 0.03em;
  
@@ -856,12 +872,13 @@ color: var(--gray);
 
 /*MIKOLA*/
 .index_backgound_white_mikola{
-  margin-top: 50px;
+  
   background: var(--white);
 }
 
 
 .index_name_mikola{
+  padding: 10px;
   margin-bottom: 10px;
   letter-spacing: 0.03em;
  
@@ -887,11 +904,12 @@ color: var(--gray);
 
 /*MIHAYLO*/
 .index_backgound_white_mihaylo{
-  margin-top: 50px;
+  
   background-color: var(--white);
 }
 
 .index_name_mihaylo{
+  padding: 10px;
 margin-bottom: 10px; 
 font-weight: 500;
 font-size: 16px;
