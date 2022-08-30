@@ -178,7 +178,7 @@ margin: 0px 0px 0px 50px;
 .index_header_mail{
  
   
-  margin: 0px 0px 0px 344px;
+ 
  
    font-weight: 500;
  font-size: 14px;
@@ -215,7 +215,7 @@ margin: 0px 0px 0px 50px;
 
 /*Section*/
 .container_portfolio_section{
-  width: 1206px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -224,9 +224,7 @@ margin: 0px 0px 0px 50px;
 }
 
 .portfolio_section{
-  width: 1890px;
-  padding-right: 15px;
-  padding-left: 15px;
+
   padding-top: 94px;
   padding-bottom: 94px;
 
@@ -258,7 +256,7 @@ cursor: pointer;
 color: var(--black);
 background: var(--light-gray);
 border-radius: 4px;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
 }
 
 .about_web_site{
@@ -278,7 +276,6 @@ cursor: pointer;
 color: var(--black);
 background: var(--light-gray);
 border-radius: 4px;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .about_applications{
@@ -298,7 +295,6 @@ cursor: pointer;
 color: var(--black);
 background: var(--light-gray);
 border-radius: 4px;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .about_design{
@@ -317,7 +313,6 @@ cursor: pointer;
 color: var(--black);
 background: var(--light-gray);
 border-radius: 4px;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .about_marketing{
@@ -336,7 +331,6 @@ cursor: pointer;
 color: var(--black);
 background: var(--light-gray);
 border-radius: 4px;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /*------------------------------------------------------*/
@@ -351,13 +345,35 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 .portfolio_item{
   flex-basis: calc((100% - 30px * 2 ) / 3);
   
-  background: var(--white);
+  
   
   
 }
 
 .margin_item{
   margin-bottom: 4px;
+
+  font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+
+
+letter-spacing: 0.06em;
+
+color: var(--black);
+}
+
+.portfolio_hav_about{
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+
+
+letter-spacing: 0.03em;
+
+color: var(--gray);
 }
 
 
@@ -366,6 +382,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
   border-left:1px solid var(--hard-white) ;
   border-bottom:1px solid var(--hard-white) ;
   border-right:1px solid var(--hard-white) ;
+  padding: 20px 24px;
 }
 
 
@@ -570,7 +587,7 @@ text-align: left;
  
    font-weight: 700;
  font-size: 14px;
- line-height:1.14;
+ line-height: 16px;
  letter-spacing: 0.03em;
  
  text-transform: uppercase;
@@ -588,7 +605,7 @@ text-align: left;
 
    font-weight: 400;
  font-size: 14px;
- line-height:1.14;
+ line-height: 24px;
  letter-spacing: 0.03em;
  
  
@@ -611,7 +628,7 @@ text-align: left;
 
   font-weight: 700;
  font-size: 14px;
- line-height:1.14;
+ line-height: 16px;
  letter-spacing: 0.03em;
  
  text-transform: uppercase;
@@ -630,7 +647,7 @@ text-align: left;
 
   font-weight: 400;
   font-size: 14px;
-  line-height:1.14;
+  line-height: 24px;
   letter-spacing: 0.03em;
   
   
@@ -651,7 +668,7 @@ text-align: left;
 
   font-weight: 700;
   font-size: 14px;
-  line-height:1.14;
+  line-height: 16px;
   letter-spacing: 0.03em;
   
   text-transform: uppercase;
@@ -670,7 +687,7 @@ text-align: left;
 
   font-weight: 400;
   font-size: 14px;
-  line-height:1.14;
+  line-height: 24px;
   letter-spacing: 0.03em;
   
   
@@ -693,7 +710,7 @@ text-align: left;
 
   font-weight: 700;
   font-size: 14px;
-  line-height:1.14;
+  line-height: 16px;
   letter-spacing: 0.03em;
   
   text-transform: uppercase;
@@ -711,7 +728,7 @@ text-align: left;
 
   font-weight: 400;
   font-size: 14px;
-  line-height:1.14;
+  line-height: 24px;
   letter-spacing: 0.03em;
   
   
@@ -731,15 +748,10 @@ text-align: left;
 }
 
 .index_about_work{
-  width: 1170px;
+  
 padding-top: 94px;
 padding-bottom: 94px;
-padding-right: 15px;
-padding-left: 15px;
 
-margin-bottom: 94px;
-margin-right: auto;
-margin-left: auto; 
 }
 
  .index_hav_one{
@@ -780,7 +792,7 @@ margin-bottom: 50px;
 
    .index_hav_two{
     text-align: center;
-
+margin-bottom: 50px;
 
     font-weight: 700;
     letter-spacing: 0.03em;
@@ -804,6 +816,12 @@ margin-bottom: 50px;
     gap: 30px;
   }
 
+ .index_name_h3{
+  margin-bottom: 10px;
+  font-size: 16px;
+
+
+ }
 
 
 /*IGOR*/
@@ -815,7 +833,7 @@ margin-bottom: 50px;
 .index_name_igor{
   padding: 10px;
 
-  margin-bottom: 10px;
+ 
   letter-spacing: 0.03em;
  
   font-weight: 500;
@@ -846,7 +864,6 @@ color: var(--gray);
 
 .index_name_olga{
   padding: 10px;
-  margin-bottom: 10px;
   letter-spacing: 0.03em;
  
   font-weight: 500;
@@ -879,7 +896,6 @@ color: var(--gray);
 
 .index_name_mikola{
   padding: 10px;
-  margin-bottom: 10px;
   letter-spacing: 0.03em;
  
   font-weight: 500;
@@ -910,7 +926,6 @@ color: var(--gray);
 
 .index_name_mihaylo{
   padding: 10px;
-margin-bottom: 10px; 
 font-weight: 500;
 font-size: 16px;
 line-height:1.18;
@@ -1060,6 +1075,11 @@ color: var(--gray);
                   
                   color: rgba(255, 255, 255, 0.6);
                 }
+
+
+                .index_footer_li{
+                  margin-bottom: 9px;
+                }
 /*Ховери*/
 
   
@@ -1107,6 +1127,7 @@ color: var(--blue);
 border-color: var(--black);
 background-color: var(--blue) ;
 color: var(--white);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
 
 }
@@ -1114,24 +1135,28 @@ color: var(--white);
   border-color: var(--black);
 background-color: var(--blue) ;
 color: var(--white);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
 }
 .about_applications:hover, .about_applications:focus{
   border-color: var(--black);
   background-color: var(--blue) ;
   color: var(--white);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   
 }
 .about_design:hover, .about_design:focus{
   border-color: var(--black);
   background-color: var(--blue) ;
   color: var(--white);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   
 }
 .about_marketing:hover, .about_marketing:focus{
   border-color: var(--black);
   background-color: var(--blue) ;
   color: var(--white);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   
 }
 
