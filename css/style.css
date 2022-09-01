@@ -152,7 +152,7 @@ color: var(--black);
  letter-spacing: 0.02em;
 }
 
-<<<<<<< HEAD
+
 .icon_nav{
 
   float: left;
@@ -163,9 +163,9 @@ color: var(--black);
   
   }
 
-=======
 
->>>>>>> af1765e32ae173d12d4c7179659d90b452afc5aa
+
+
 
 /*----------------------------------------*/
 
@@ -466,7 +466,7 @@ padding: 10px 32px 10px 32px;
  }
 
 
-<<<<<<< HEAD
+
 .rectangle{
   width: 270px;
   margin-bottom: 30px;
@@ -480,8 +480,8 @@ border-radius: 4px;
 
 
 
-=======
->>>>>>> af1765e32ae173d12d4c7179659d90b452afc5aa
+
+
  .index_details{
   margin-bottom: 10px;
   font-style: normal;
@@ -599,11 +599,11 @@ margin-bottom: 50px;
 
 /*IGOR*/
  .backgound_team{
-<<<<<<< HEAD
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
-=======
->>>>>>> af1765e32ae173d12d4c7179659d90b452afc5aa
+
+
     
   background: var(--white);
 }
